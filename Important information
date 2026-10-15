@@ -1,0 +1,18 @@
+**Add anything you may find important here**
+- Before commmiting and pushing agree who will commit and push, so we don’t accidentally include the other person’s unfinished edits.
+
+
+running_hub/
+├── main.py       # Shows the menu and sends choices to features
+├── runs.py       # Add, view, and remove saved runs
+├── stats.py      # BMI and running statistics
+└── runs.json     # Saved run data
+
+**EXAMPLE ON HOW IT WILL WORK**
+# main.py
+from runs import add_run -- **Where add_run is a function within runs.py**
+
+choice = input("Choose an option: ")
+
+if choice == "1":
+    add_run()

@@ -1,4 +1,3 @@
-
 space = "                         "
 
 def main_menu():
